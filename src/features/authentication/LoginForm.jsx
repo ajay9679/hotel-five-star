@@ -16,7 +16,7 @@ export default function LoginForm(){
     const navigate = useNavigate();
     const {login,isLogin} = useLogin();
     const {isAuth,isSignin} = useUser();
-    const [email, setEmail] = useState("shima@gmail.com");
+    const [email, setEmail] = useState("ajay@gmail.com");
     const [password, setPassword] = useState("test1234");
     
     function handleSubmit(e){
