@@ -7,6 +7,7 @@ export function useTodayActivity(){
 		queryFn:getStaysTodayActivity,
 		queryKey:['today-activity'],
 	});
+	console.log('today activities',activities)
 
 	return {isStaying,activities};
 }
