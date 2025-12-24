@@ -101,7 +101,7 @@ export default function Upload(){
 		<small>Only run this once</small>
 		<small><em>(Cabin images need to be uploaded manually)</em></small>
 		<hr style={{marginBottom:'15px',marginTop:'15px'}} />
-		<Button variation='danger' size='small' onClick={uploadBookings}  >Upload CURRENT bookings</Button>
+		<Button variation='danger' size='small' onClick={uploadBookings} disabled={true} >Upload CURRENT bookings</Button>
 		<small>You can run this every day you develop the app</small>
 	</div>
 }
